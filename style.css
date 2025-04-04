@@ -1,0 +1,687 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    background-color:white;
+}
+
+.home_section{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.nav_bar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #000000;
+}
+
+
+.logo_container{
+    width: 20%;
+    height: 100%;
+    
+}
+
+
+.logo_image{
+    height: 100%;
+    width: 90%;
+}
+
+
+.nav_links{
+    width: 80%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_links ul{
+    height: 100%;
+    
+    margin-left: 100px;
+    display: flex;
+    gap: 4em;
+    align-items: center;
+}
+
+.nav_links ul li{
+    list-style: none;
+   
+}
+
+ ul a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+   
+}
+
+
+ul a:hover{
+    background-color: #EAA000;
+    padding: 58px 15px 58px;
+}
+
+
+.getButton{
+    height: 50px;
+    width: 130px;
+    font-weight: bold;
+    background-color: #EAA000;
+    border: none;
+    border-radius: 10px;
+    margin-left: 60px;
+    font-size: 18px;
+}
+
+.getButton:hover{
+    background-color: transparent;
+    border: #EAA000 solid 2px;
+    color: white;
+}
+
+.homepic {
+    height: 83vh;
+    position: relative;
+    
+  
+}
+
+.homepic::before {
+    content: '';
+    background-image: url(gif5.gif);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+   
+    background-size: 100% 100%;  /* Try contain instead of cover */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+    opacity: 1;
+    filter: brightness(40%);
+}
+
+ 
+.welcome_massage{
+    width: 40%;
+    height: 400px;
+    margin-left: 40px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+ 
+}
+
+
+.you_enjoy{
+    
+    color: #EAA000;
+}
+
+.timeless{
+    margin-left: 30px; 
+}
+
+.create{
+ 
+    color:#EAA000;
+}
+
+.createW{
+    margin-left: 130px;
+    font-weight: bolder;
+    
+}
+
+.viewPoint_btn{
+    width: 200px;
+    height: 40px;
+    background-color: #EAA000;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.viewPoint_btn:hover{
+    background-color: transparent;
+    border: #EAA000 solid 2px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.About_container{
+    width: 100%;
+    height: 100vh;
+}
+
+.We_create{
+    font-size: 40px;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.header_title {
+    width: 15%;
+    height: 55px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    
+}
+
+.service{
+   
+    font-size: 19px;
+}
+
+
+
+.header_title::before,
+.header_title::after {
+    content: "";
+    position: absolute;
+    width: 20px;  /* Corner size */
+    height: 20px;
+    border: 3px solid #EAA000;
+}
+
+.header_title::before {
+    top: 0;
+    left: 0;
+    border-right: none;
+    border-bottom: none;
+}
+
+.header_title::after {
+    bottom: 0;
+    right: 0;
+    border-left: none;
+    border-top: none;
+}
+
+
+
+
+.about_content_container{
+    width: 100%;
+    height: 80%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+
+.about_image_cont{
+    width: 47%;
+    height: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_text_cont{
+    width: 47%;
+    height: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.background_color{
+    width: 95%;
+    height: 80%;
+    background-color: #EAA000;
+    margin-top: 20px;
+}
+
+.img_container{
+    width: 100%;
+    height: 100%;
+   
+    position: relative;
+
+}
+
+.img_about{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.about_socialM{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    background-color: #EAA000;
+}
+
+.media{
+    font-size: 26px;
+    background-color:white;
+    padding: 10px;
+}
+
+ a{
+    color: black;
+}
+
+.media:hover{
+    background-color: #EAA000;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.Services_container{
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+
+.service_content_container{
+    width: 100%;
+    height: 80%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.service_box{
+    width: 24%;
+    height: 190px;
+    border: #EAA000 solid 3px;
+    background-color: white;
+    box-shadow: #aeabab 10px 10px 10px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.service_title{
+    font-weight: bold;
+}
+
+
+.fa-paint-brush,
+.fa-ruler-combined,
+.fa-bed,
+.fa-chair,
+.fa-utensils,
+.fa-couch{
+    font-size: 40px;
+}
+
+.service_text{
+    margin-left: 10px;
+}
+
+
+.Check_more_btn{
+    width: 50%;
+    height: 30px;
+    border: none;
+    background-color: #EAA000;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+}
+
+
+
+
+
+
+
+
+.project_Container{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.main_project_content{
+    width: 100%;
+    height: 80%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+     
+}
+
+
+.projectBox{
+    width: 40%;
+    height: 85%;
+    background-image: url(gym1.jpg);
+    position: relative;
+    background-size: 100% 100%;  /* Try contain instead of cover */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.hover_box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 1.5s;
+    
+}
+
+.hover_box:hover{
+    background-color: rgb(14, 14, 14,0.5);
+    opacity: 1;
+    
+}
+
+.gym_text{
+    color: white;
+    font-size: 30px;
+}
+
+.view_btn{
+    border: none;
+    background-color: #EAA000;
+    color: black;
+    width: 50%;
+    height: 50px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+
+.view_btn:hover{
+    background-color: transparent;
+    color: white;
+    border: #EAA000 solid 2px;
+}
+
+
+.projectBox2{
+    width: 40%;
+    height: 85%;
+    background-image: url(resident5.jpg);
+    position: relative;
+    background-size: 100% 100%;  /* Try contain instead of cover */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.hover_box2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 1.5s;
+    
+}
+
+
+
+.hover_box2:hover{
+    background-color: rgb(14, 14, 14,0.5);
+    opacity: 1;
+    
+}
+
+
+#lightboxModal{
+    width: 100%;
+    height: 100vh;
+    background-color:  rgb(14, 14, 14,0.5);
+}
+
+#lightboxContent{
+    width: 1000px!important;
+    height: 80% !important;
+    
+}
+
+
+/* Custom modal sizing */
+#lightboxModal{
+    max-width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+  }
+
+  .modal-dialog {
+    max-width: 100vw;
+    height: 100vh;
+  }
+  
+  #lightboxContent {
+    height: 100% !important;
+    width: 100% !important;
+    margin-bottom: 40px !important;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #lightboxModal .modal-body {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #lightbox-img {
+    width: 70% !important;
+    height: 100% !important;
+   
+  }
+  
+
+  .contactUs_container{
+    width: 100%;
+    height: 100vh;
+  }
+
+  .contact_content_container{
+    width: 100%;
+    height: 80%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .TheForm{
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+
+.name_container{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 2em;
+}
+
+.name_container input{
+    width: 40%;
+    height: 100%;
+    border: #EAA000 solid 2px;
+}
+
+.massage_box{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.massage_box textarea{
+    width: 85%;
+    height: 100%;
+    border: #EAA000 solid 2px;
+}
+
+.name_container button{
+    width: 85%;
+    height: 100%;
+    background-color: #EAA000;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+}
+
+
+.madia_container2{
+    width: 85%;
+    height: 15%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.footer_container{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+
+}
+
+.footer_content{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.footer_image{
+    width: 100%;
+    height: 100%;
+}
+
+.footer_image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.footer_content .media2{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+   
+}
+
+
+.media3{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content:flex-start;
+    gap: 1em;
+}
+
+.media_title{
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content:flex-start;
+    gap: 1em;
+}
+
